@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.service;
+package com.lkrcoin.wallet.service;
 
 /**
  * @author John L. Jegutanis

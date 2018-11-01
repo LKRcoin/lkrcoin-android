@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.coins.families.VpncoinFamily;
+import com.lkrcoin.core.coins.families.VpncoinFamily;
 
 /**
  * @author John L. Jegutanis

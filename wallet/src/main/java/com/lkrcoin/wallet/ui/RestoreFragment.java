@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -21,11 +21,11 @@ import android.widget.ImageButton;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.TextView;
 
-import com.araguaneybits.core.CoreUtils;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.Keyboard;
+import com.lkrcoin.core.CoreUtils;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.Fonts;
+import com.lkrcoin.wallet.util.Keyboard;
 
 import org.bitcoinj.crypto.MnemonicCode;
 import org.bitcoinj.crypto.MnemonicException;

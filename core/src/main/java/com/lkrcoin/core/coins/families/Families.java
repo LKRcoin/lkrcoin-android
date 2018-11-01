@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.families;
+package com.lkrcoin.core.coins.families;
 
 /**
  * @author John L. Jegutanis

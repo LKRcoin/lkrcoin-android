@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,15 +12,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.SignedMessage;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.SignVerifyMessageTask;
-import com.araguaneybits.wallet.util.Keyboard;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.SignedMessage;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.tasks.SignVerifyMessageTask;
+import com.lkrcoin.wallet.util.Keyboard;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,8 +28,8 @@ import org.slf4j.LoggerFactory;
 import javax.annotation.Nullable;
 
 import static android.view.View.OnClickListener;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * Fragment that prepares a transaction

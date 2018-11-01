@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.nxt.Crypto;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
+import com.lkrcoin.core.coins.nxt.Crypto;
+import com.lkrcoin.core.protos.Protos;
+import com.lkrcoin.core.util.KeyUtils;
 import com.google.protobuf.ByteString;
 
 import org.bitcoinj.core.BloomFilter;

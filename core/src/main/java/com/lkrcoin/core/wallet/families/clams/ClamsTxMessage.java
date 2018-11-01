@@ -1,9 +1,9 @@
-package com.araguaneybits.core.wallet.families.clams;
+package com.lkrcoin.core.wallet.families.clams;
 
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.families.bitcoin.BitTransaction;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Transaction;
@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
+import static com.lkrcoin.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

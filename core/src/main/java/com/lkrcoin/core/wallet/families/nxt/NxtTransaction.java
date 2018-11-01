@@ -1,12 +1,12 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.nxt.Transaction;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractWallet;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -14,7 +14,7 @@ import org.bitcoinj.core.TransactionConfidence;
 
 import java.util.List;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
 
 /**
  * @author vbcs

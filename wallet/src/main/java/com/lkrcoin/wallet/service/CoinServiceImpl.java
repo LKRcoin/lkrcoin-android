@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.service;
+package com.lkrcoin.wallet.service;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -13,14 +13,14 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.text.format.DateUtils;
 
-import com.araguaneybits.core.network.ConnectivityHelper;
-import com.araguaneybits.core.network.ServerClients;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.WalletApplication;
+import com.lkrcoin.core.network.ConnectivityHelper;
+import com.lkrcoin.core.network.ServerClients;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.WalletApplication;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Transaction;

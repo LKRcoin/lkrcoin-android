@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
 
 /*
@@ -18,10 +18,10 @@ package com.araguaneybits.core.util;
  * limitations under the License.
  */
 
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.FiatValue;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
+import com.lkrcoin.core.coins.FiatType;
+import com.lkrcoin.core.coins.FiatValue;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.ValueType;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
@@ -433,7 +433,7 @@ public final class MonetaryFormat implements Serializable {
     }
 
     /**
-     * Parse a human readable fiat value to a {@link com.araguaneybits.core.coins.Value} instance.
+     * Parse a human readable fiat value to a {@link com.lkrcoin.core.coins.Value} instance.
      *
      * @throws NumberFormatException
      *             if the string cannot be parsed for some reason

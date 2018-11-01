@@ -1,15 +1,15 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.WalletApplication;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.WalletApplication;
 
 import java.util.List;
 

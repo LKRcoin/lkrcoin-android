@@ -1,13 +1,13 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.araguaneybits.core.wallet.SendRequest;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider;
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.core.wallet.SendRequest;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeHistoryProvider;
+import com.lkrcoin.wallet.R;
 
 import javax.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,16 +7,16 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.util.ExchangeRate;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractTransaction.AbstractOutput;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.wallet.R;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

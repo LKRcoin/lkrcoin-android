@@ -1,8 +1,8 @@
-package com.araguaneybits.wallet.tasks;
+package com.lkrcoin.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.araguaneybits.wallet.Constants;
+import com.lkrcoin.wallet.Constants;
 import com.google.common.base.Charsets;
 
 import org.slf4j.Logger;

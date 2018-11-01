@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,12 +13,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.QrUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.util.Fonts;
+import com.lkrcoin.wallet.util.QrUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.bitcoinj.crypto.DeterministicKey;
 import org.bitcoinj.crypto.HDKeyDerivation;
@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.params.KeyParameter;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

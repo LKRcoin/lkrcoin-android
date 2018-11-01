@@ -1,16 +1,16 @@
-package com.araguaneybits.core.network;
+package com.lkrcoin.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.network.interfaces.ConnectionEventListener;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.nxt.Convert;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.coins.nxt.NxtException;
+import com.lkrcoin.core.coins.nxt.TransactionImpl;
+import com.lkrcoin.core.network.interfaces.BlockchainConnection;
+import com.lkrcoin.core.network.interfaces.ConnectionEventListener;
+import com.lkrcoin.core.network.interfaces.TransactionEventListener;
 
-import com.araguaneybits.core.wallet.families.nxt.NxtTransaction;
-import com.araguaneybits.stratumj.ServerAddress;
+import com.lkrcoin.core.wallet.families.nxt.NxtTransaction;
+import com.lkrcoin.stratumj.ServerAddress;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.Service;

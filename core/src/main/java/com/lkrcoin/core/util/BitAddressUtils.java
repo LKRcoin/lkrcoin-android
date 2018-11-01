@@ -1,12 +1,12 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
 
 import org.bitcoinj.script.Script;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
+import static com.lkrcoin.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

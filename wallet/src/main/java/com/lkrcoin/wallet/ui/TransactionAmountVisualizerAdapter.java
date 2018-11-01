@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,15 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.widget.SendOutput;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractTransaction.AbstractOutput;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.widget.SendOutput;
 
 import java.util.ArrayList;
 import java.util.List;

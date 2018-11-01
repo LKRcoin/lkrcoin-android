@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,11 +17,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.PasswordQualityChecker;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.Fonts;
+import com.lkrcoin.wallet.util.Keyboard;
+import com.lkrcoin.wallet.util.PasswordQualityChecker;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

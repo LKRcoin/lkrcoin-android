@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -27,12 +27,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.Fonts;
 
 import java.util.ArrayList;
 import java.util.Collection;

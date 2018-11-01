@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -14,15 +14,15 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletPocketHD;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.WalletPocketHD;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

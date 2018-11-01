@@ -1,8 +1,8 @@
-package com.araguaneybits.stratumj;
+package com.lkrcoin.stratumj;
 
 
-import com.araguaneybits.stratumj.messages.CallMessage;
-import com.araguaneybits.stratumj.messages.ResultMessage;
+import com.lkrcoin.stratumj.messages.CallMessage;
+import com.lkrcoin.stratumj.messages.ResultMessage;
 import org.bitcoinj.utils.BriefLogFormatter;
 
 import com.google.common.util.concurrent.FutureCallback;

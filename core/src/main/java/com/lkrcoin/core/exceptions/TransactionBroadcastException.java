@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exceptions;
+package com.lkrcoin.core.exceptions;
 
 /**
  * Created by vbcs on 29/9/2015.

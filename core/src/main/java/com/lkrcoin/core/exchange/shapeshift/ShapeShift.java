@@ -1,19 +1,19 @@
-package com.araguaneybits.core.exchange.shapeshift;
+package com.lkrcoin.core.exchange.shapeshift;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftAmountTx;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftEmail;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftException;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftLimit;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftNormalTx;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftRate;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTime;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftAmountTx;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftEmail;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftException;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftLimit;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftNormalTx;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftRate;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftTime;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.lkrcoin.core.wallet.AbstractAddress;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -27,8 +27,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

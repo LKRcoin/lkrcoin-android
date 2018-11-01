@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.lkrcoin.core.exchange.shapeshift.data;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 
 import android.content.Context;
@@ -13,10 +13,10 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.Fonts;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

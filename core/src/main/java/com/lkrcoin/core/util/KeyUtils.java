@@ -1,7 +1,7 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.protos.Protos;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.protos.Protos;
 import com.google.common.collect.ImmutableList;
 import com.google.protobuf.ByteString;
 

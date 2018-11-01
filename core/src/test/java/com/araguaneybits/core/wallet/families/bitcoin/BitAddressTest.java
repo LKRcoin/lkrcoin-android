@@ -1,10 +1,10 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.lkrcoin.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.LitecoinMain;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;

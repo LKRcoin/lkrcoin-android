@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet;
+package com.lkrcoin.wallet;
 
 import android.app.ActivityManager;
 import android.app.Application;
@@ -14,19 +14,19 @@ import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.util.HardwareSoftwareCompliance;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletProtobufSerializer;
-import com.araguaneybits.wallet.service.CoinService;
-import com.araguaneybits.wallet.service.CoinServiceImpl;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.LinuxSecureRandom;
-import com.araguaneybits.wallet.util.NetworkUtils;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.exchange.shapeshift.ShapeShift;
+import com.lkrcoin.core.util.HardwareSoftwareCompliance;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.WalletProtobufSerializer;
+import com.lkrcoin.wallet.service.CoinService;
+import com.lkrcoin.wallet.service.CoinServiceImpl;
+import com.lkrcoin.wallet.util.Fonts;
+import com.lkrcoin.wallet.util.LinuxSecureRandom;
+import com.lkrcoin.wallet.util.NetworkUtils;
 import com.google.common.collect.ImmutableList;
 
 import org.acra.ACRA;

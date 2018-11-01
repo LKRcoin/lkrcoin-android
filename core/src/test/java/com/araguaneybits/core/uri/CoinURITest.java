@@ -1,4 +1,4 @@
-package com.araguaneybits.core.uri;
+package com.lkrcoin.core.uri;
 
 /*
  * Copyright 2012, 2014 the original author or authors.
@@ -18,19 +18,19 @@ package com.araguaneybits.core.uri;
  * 
  */
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.BitcoinTest;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DashMain;
-import com.araguaneybits.core.coins.DogecoinMain;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.coins.NuSharesMain;
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.PeercoinMain;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.BitcoinTest;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.DashMain;
+import com.lkrcoin.core.coins.DogecoinMain;
+import com.lkrcoin.core.coins.LitecoinMain;
+import com.lkrcoin.core.coins.NuBitsMain;
+import com.lkrcoin.core.coins.NuSharesMain;
+import com.lkrcoin.core.coins.NxtMain;
+import com.lkrcoin.core.coins.PeercoinMain;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.wallet.families.nxt.NxtAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;
@@ -38,7 +38,7 @@ import org.spongycastle.util.encoders.Hex;
 
 import java.io.UnsupportedEncodingException;
 
-import static com.araguaneybits.core.util.BitAddressUtils.getHash160;
+import static com.lkrcoin.core.util.BitAddressUtils.getHash160;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

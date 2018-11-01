@@ -1,9 +1,9 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.ValueType;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.WalletAccount;
 
 /**
  * @author John L. Jegutanis

@@ -1,28 +1,28 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.exceptions.TransactionBroadcastException;
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.BlockHeader;
-import com.araguaneybits.core.network.NxtServerClient;
-import com.araguaneybits.core.network.ServerClient;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.SendRequest;
-import com.araguaneybits.core.wallet.SignedMessage;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletAccountEventListener;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.nxt.Convert;
+import com.lkrcoin.core.coins.nxt.NxtException;
+import com.lkrcoin.core.coins.nxt.Transaction;
+import com.lkrcoin.core.exceptions.TransactionBroadcastException;
+import com.lkrcoin.core.network.AddressStatus;
+import com.lkrcoin.core.network.BlockHeader;
+import com.lkrcoin.core.network.NxtServerClient;
+import com.lkrcoin.core.network.ServerClient;
+import com.lkrcoin.core.network.interfaces.BlockchainConnection;
+import com.lkrcoin.core.network.interfaces.TransactionEventListener;
+import com.lkrcoin.core.protos.Protos;
+import com.lkrcoin.core.util.KeyUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.core.wallet.SendRequest;
+import com.lkrcoin.core.wallet.SignedMessage;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.WalletAccountEventListener;
+import com.lkrcoin.core.wallet.WalletConnectivityStatus;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -49,8 +49,8 @@ import java.util.concurrent.Executor;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkArgument;
 
 /**

@@ -1,6 +1,6 @@
-package com.araguaneybits.core.messages;
+package com.lkrcoin.core.messages;
 
-import com.araguaneybits.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractTransaction;
 
 import java.io.Serializable;
 

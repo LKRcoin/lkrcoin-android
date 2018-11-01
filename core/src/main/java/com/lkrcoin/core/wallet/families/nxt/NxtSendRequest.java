@@ -1,19 +1,19 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.BurstMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FeePolicy;
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.coins.nxt.Appendix;
-import com.araguaneybits.core.coins.nxt.Attachment;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.util.TypeUtils;
-import com.araguaneybits.core.wallet.SendRequest;
+import com.lkrcoin.core.coins.BurstMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.FeePolicy;
+import com.lkrcoin.core.coins.NxtMain;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.coins.nxt.Appendix;
+import com.lkrcoin.core.coins.nxt.Attachment;
+import com.lkrcoin.core.coins.nxt.Convert;
+import com.lkrcoin.core.coins.nxt.TransactionImpl;
+import com.lkrcoin.core.util.TypeUtils;
+import com.lkrcoin.core.wallet.SendRequest;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

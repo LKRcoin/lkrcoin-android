@@ -1,4 +1,4 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.lkrcoin.core.wallet.families.bitcoin;
 
 import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.core.Sha256Hash;

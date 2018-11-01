@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.lkrcoin.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -14,15 +14,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletPocketHD;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.lkrcoin.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.WalletPocketHD;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.DialogBuilder;
 
 import javax.annotation.Nullable;
 

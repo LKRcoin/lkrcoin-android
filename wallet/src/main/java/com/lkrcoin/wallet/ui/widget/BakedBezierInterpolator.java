@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project

@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.wallet.families.bitcoin.CoinSelection;
-import com.araguaneybits.core.wallet.families.bitcoin.CoinSelector;
-import com.araguaneybits.core.wallet.families.bitcoin.OutPointOutput;
+import com.lkrcoin.core.wallet.families.bitcoin.CoinSelection;
+import com.lkrcoin.core.wallet.families.bitcoin.CoinSelector;
+import com.lkrcoin.core.wallet.families.bitcoin.OutPointOutput;
 import com.google.common.annotations.VisibleForTesting;
 
 import org.bitcoinj.core.Coin;

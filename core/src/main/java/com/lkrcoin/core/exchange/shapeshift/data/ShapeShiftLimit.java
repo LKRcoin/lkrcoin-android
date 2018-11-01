@@ -1,14 +1,14 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.lkrcoin.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
 
 import org.json.JSONObject;
 
 import java.math.RoundingMode;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
 /*
  * Copyright 2014 Andreas Schildbach
@@ -17,13 +17,13 @@ package com.araguaneybits.core.util;
  * limitations under the License.
  */
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.FiatValue;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.coins.Value;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.FiatType;
+import com.lkrcoin.core.coins.FiatValue;
+import com.lkrcoin.core.coins.LitecoinMain;
+import com.lkrcoin.core.coins.NuBitsMain;
+import com.lkrcoin.core.coins.Value;
 
 import org.junit.Test;
 

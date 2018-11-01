@@ -1,7 +1,7 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.lkrcoin.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
 import com.google.common.collect.ImmutableList;
 
 import org.json.JSONObject;

@@ -1,8 +1,8 @@
-package com.araguaneybits.core.coins.families;
+package com.lkrcoin.core.coins.families;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
 
 /**
  * @author John L. Jegutanis

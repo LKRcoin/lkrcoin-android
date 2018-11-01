@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
 import com.google.common.collect.ImmutableMap;
 

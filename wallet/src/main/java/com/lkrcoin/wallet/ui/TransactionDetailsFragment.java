@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 
 import android.content.Intent;
@@ -15,18 +15,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.TimeUtils;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractTransaction.AbstractOutput;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.TimeUtils;
+import com.lkrcoin.wallet.util.UiUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

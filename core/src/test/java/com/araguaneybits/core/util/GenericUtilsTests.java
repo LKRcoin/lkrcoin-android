@@ -1,15 +1,15 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.BlackcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DigitalcoinMain;
-import com.araguaneybits.core.coins.FeathercoinMain;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.coins.PeercoinMain;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.BlackcoinMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.DigitalcoinMain;
+import com.lkrcoin.core.coins.FeathercoinMain;
+import com.lkrcoin.core.coins.LitecoinMain;
+import com.lkrcoin.core.coins.NuBitsMain;
+import com.lkrcoin.core.coins.PeercoinMain;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;

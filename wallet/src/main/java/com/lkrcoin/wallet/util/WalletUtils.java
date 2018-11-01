@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.lkrcoin.wallet.util;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -24,16 +24,16 @@ import android.text.Spannable;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.util.Currencies;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.util.Currencies;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractTransaction.AbstractOutput;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
 
 import org.bitcoinj.core.Sha256Hash;
 
@@ -48,7 +48,7 @@ import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author Andreas Schildbach

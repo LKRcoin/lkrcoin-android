@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,13 +8,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.WalletUtils;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

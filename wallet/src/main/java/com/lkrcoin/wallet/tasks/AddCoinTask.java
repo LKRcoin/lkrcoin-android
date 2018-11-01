@@ -1,10 +1,10 @@
-package com.araguaneybits.wallet.tasks;
+package com.lkrcoin.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
 
 import org.spongycastle.crypto.params.KeyParameter;
 

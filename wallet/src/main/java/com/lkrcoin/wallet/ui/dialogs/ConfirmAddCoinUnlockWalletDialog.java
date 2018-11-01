@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.lkrcoin.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.DialogBuilder;
 
 import butterknife.ButterKnife;
 

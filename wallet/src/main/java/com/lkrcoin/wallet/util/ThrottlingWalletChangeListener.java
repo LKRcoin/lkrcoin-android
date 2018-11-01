@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.lkrcoin.wallet.util;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -23,11 +23,11 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import android.os.Handler;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletAccountEventListener;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.WalletAccountEventListener;
+import com.lkrcoin.core.wallet.WalletConnectivityStatus;
 
 /**
  * @author Andreas Schildbach

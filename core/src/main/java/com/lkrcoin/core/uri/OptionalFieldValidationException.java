@@ -1,4 +1,4 @@
-package com.araguaneybits.core.uri;
+package com.lkrcoin.core.uri;
 
 /**
  * <p>This exception occurs when an optional field is detected (under the Bitcoin URI scheme) and fails

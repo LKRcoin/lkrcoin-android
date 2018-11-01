@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.nxt;
+package com.lkrcoin.core.coins.nxt;
 
 
 //import org.json.simple.JSONObject;

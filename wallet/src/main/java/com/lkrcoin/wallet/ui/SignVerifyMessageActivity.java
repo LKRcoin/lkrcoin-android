@@ -1,8 +1,8 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.os.Bundle;
 
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.wallet.R;
 
 /**
  * @author John L. Jegutanis

@@ -1,8 +1,8 @@
-package com.araguaneybits.core.util;
+package com.lkrcoin.core.util;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.ValueType;
 
 import org.bitcoinj.core.Coin;
 

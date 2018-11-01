@@ -1,7 +1,7 @@
-package com.araguaneybits.wallet.tasks;
+package com.lkrcoin.wallet.tasks;
 
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.lkrcoin.core.exchange.shapeshift.ShapeShift;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

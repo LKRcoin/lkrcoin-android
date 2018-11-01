@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.BitcoinTest;
-import com.araguaneybits.core.protos.Protos;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.BitcoinTest;
+import com.lkrcoin.core.protos.Protos;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;

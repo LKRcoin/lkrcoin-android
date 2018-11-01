@@ -1,11 +1,11 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DogecoinMain;
-import com.araguaneybits.core.coins.DogecoinTest;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.protos.Protos;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.DogecoinMain;
+import com.lkrcoin.core.coins.DogecoinTest;
+import com.lkrcoin.core.coins.LitecoinMain;
+import com.lkrcoin.core.protos.Protos;
 import org.bitcoinj.crypto.KeyCrypter;
 import org.bitcoinj.crypto.KeyCrypterScrypt;
 import org.bitcoinj.crypto.MnemonicException;

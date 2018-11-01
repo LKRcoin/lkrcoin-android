@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.util.GenericUtils;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.util.GenericUtils;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.NetworkParameters;

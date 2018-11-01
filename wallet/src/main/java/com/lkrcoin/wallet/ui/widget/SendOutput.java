@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,10 +9,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.R;
 
 /**
  * @author John L. Jegutanis

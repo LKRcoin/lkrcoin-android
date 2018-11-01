@@ -1,4 +1,4 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

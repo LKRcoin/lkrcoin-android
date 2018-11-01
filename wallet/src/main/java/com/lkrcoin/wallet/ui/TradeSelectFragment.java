@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -21,26 +21,26 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.AddCoinTask;
-import com.araguaneybits.wallet.tasks.ExchangeCheckSupportedCoinsTask;
-import com.araguaneybits.wallet.tasks.MarketInfoPollTask;
-import com.araguaneybits.wallet.ui.adaptors.AvailableAccountsAdaptor;
-import com.araguaneybits.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.exchange.shapeshift.ShapeShift;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.lkrcoin.core.util.ExchangeRate;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.tasks.AddCoinTask;
+import com.lkrcoin.wallet.tasks.ExchangeCheckSupportedCoinsTask;
+import com.lkrcoin.wallet.tasks.MarketInfoPollTask;
+import com.lkrcoin.wallet.ui.adaptors.AvailableAccountsAdaptor;
+import com.lkrcoin.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.lkrcoin.wallet.ui.widget.AmountEditView;
+import com.lkrcoin.wallet.util.Keyboard;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
@@ -56,7 +56,7 @@ import java.util.Timer;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.coins.Value.canCompare;
+import static com.lkrcoin.core.coins.Value.canCompare;
 
 /**
  * @author John L. Jegutanis

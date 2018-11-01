@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.coins.families.BitFamily;
+import com.lkrcoin.core.coins.families.BitFamily;
 
 /**
  * Created by jestevez on 21/11/17.

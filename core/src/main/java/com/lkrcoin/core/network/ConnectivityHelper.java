@@ -1,4 +1,4 @@
-package com.araguaneybits.core.network;
+package com.lkrcoin.core.network;
 
 /**
  * @author John L. Jegutanis

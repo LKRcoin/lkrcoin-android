@@ -1,18 +1,18 @@
-package com.araguaneybits.core.network;
+package com.lkrcoin.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.network.interfaces.ConnectionEventListener;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitBlockchainConnection;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransactionEventListener;
-import com.araguaneybits.stratumj.ServerAddress;
-import com.araguaneybits.stratumj.StratumClient;
-import com.araguaneybits.stratumj.messages.CallMessage;
-import com.araguaneybits.stratumj.messages.ResultMessage;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.network.interfaces.ConnectionEventListener;
+import com.lkrcoin.core.network.interfaces.TransactionEventListener;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.wallet.families.bitcoin.BitBlockchainConnection;
+import com.lkrcoin.core.wallet.families.bitcoin.BitTransaction;
+import com.lkrcoin.core.wallet.families.bitcoin.BitTransactionEventListener;
+import com.lkrcoin.stratumj.ServerAddress;
+import com.lkrcoin.stratumj.StratumClient;
+import com.lkrcoin.stratumj.messages.CallMessage;
+import com.lkrcoin.stratumj.messages.ResultMessage;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Files;
 import com.google.common.util.concurrent.FutureCallback;
@@ -45,8 +45,8 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
 import static com.google.common.util.concurrent.Service.State.NEW;
 
 /**

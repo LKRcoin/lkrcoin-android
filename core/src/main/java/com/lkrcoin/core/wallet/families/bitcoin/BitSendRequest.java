@@ -1,15 +1,15 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.lkrcoin.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.util.TypeUtils;
-import com.araguaneybits.core.wallet.SendRequest;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.families.BitFamily;
+import com.lkrcoin.core.util.TypeUtils;
+import com.lkrcoin.core.wallet.SendRequest;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Transaction;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

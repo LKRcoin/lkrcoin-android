@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,20 +18,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.network.ConnectivityHelper;
-import com.araguaneybits.core.network.ServerClients;
-import com.araguaneybits.core.wallet.BitWalletSingleKey;
-import com.araguaneybits.core.wallet.SendRequest;
-import com.araguaneybits.core.wallet.SerializedKey;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.network.ConnectivityHelper;
+import com.lkrcoin.core.network.ServerClients;
+import com.lkrcoin.core.wallet.BitWalletSingleKey;
+import com.lkrcoin.core.wallet.SendRequest;
+import com.lkrcoin.core.wallet.SerializedKey;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.families.bitcoin.BitTransaction;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.util.Keyboard;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.bitcoinj.core.TransactionInput;
 import org.bitcoinj.core.TransactionOutPoint;
@@ -47,9 +47,9 @@ import butterknife.OnFocusChange;
 import butterknife.OnTextChanged;
 
 import static butterknife.OnTextChanged.Callback.AFTER_TEXT_CHANGED;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.util.UiUtils.setGone;
-import static com.araguaneybits.wallet.util.UiUtils.setVisible;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.wallet.util.UiUtils.setGone;
+import static com.lkrcoin.wallet.util.UiUtils.setVisible;
 
 
 /**

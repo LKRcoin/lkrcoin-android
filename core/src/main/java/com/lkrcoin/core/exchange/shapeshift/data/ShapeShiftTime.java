@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.lkrcoin.core.exchange.shapeshift.data;
 
 import org.json.JSONException;
 import org.json.JSONObject;

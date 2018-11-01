@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -9,13 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.widget.AddressView;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.widget.AddressView;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

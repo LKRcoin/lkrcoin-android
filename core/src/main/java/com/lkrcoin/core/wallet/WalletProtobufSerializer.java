@@ -1,15 +1,15 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.OutPointOutput;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyWallet;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.families.BitFamily;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.protos.Protos;
+import com.lkrcoin.core.util.KeyUtils;
+import com.lkrcoin.core.wallet.families.bitcoin.BitTransaction;
+import com.lkrcoin.core.wallet.families.bitcoin.OutPointOutput;
+import com.lkrcoin.core.wallet.families.nxt.NxtFamilyWallet;
+import com.lkrcoin.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
 import com.google.common.base.Splitter;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.TextFormat;

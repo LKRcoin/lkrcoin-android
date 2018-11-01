@@ -1,6 +1,6 @@
-package com.araguaneybits.core.exceptions;
+package com.lkrcoin.core.exceptions;
 
-import com.araguaneybits.core.coins.CoinType;
+import com.lkrcoin.core.coins.CoinType;
 
 /**
  * @author John L. Jegutanis

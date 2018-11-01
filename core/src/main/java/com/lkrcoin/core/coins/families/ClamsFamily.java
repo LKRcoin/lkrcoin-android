@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins.families;
+package com.lkrcoin.core.coins.families;
 
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.wallet.families.clams.ClamsTxMessage;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.wallet.families.clams.ClamsTxMessage;
 
 import javax.annotation.Nullable;
 

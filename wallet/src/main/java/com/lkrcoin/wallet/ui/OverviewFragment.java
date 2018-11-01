@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,21 +18,21 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.adaptors.AccountListAdapter;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.ui.widget.SwipeRefreshLayout;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.adaptors.AccountListAdapter;
+import com.lkrcoin.wallet.ui.widget.Amount;
+import com.lkrcoin.wallet.ui.widget.SwipeRefreshLayout;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.UiUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableMap;
 
 import org.bitcoinj.utils.Threading;

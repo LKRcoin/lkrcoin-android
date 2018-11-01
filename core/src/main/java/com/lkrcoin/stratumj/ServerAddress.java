@@ -1,4 +1,4 @@
-package com.araguaneybits.stratumj;
+package com.lkrcoin.stratumj;
 
 /**
  * @author John L. Jegutanis

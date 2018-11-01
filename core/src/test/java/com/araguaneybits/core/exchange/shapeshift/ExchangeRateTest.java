@@ -1,10 +1,10 @@
-package com.araguaneybits.core.exchange.shapeshift;
+package com.lkrcoin.core.exchange.shapeshift;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DogecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.DogecoinMain;
+import com.lkrcoin.core.coins.NuBitsMain;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
 
 import org.junit.Test;
 

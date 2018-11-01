@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.wallet.R;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

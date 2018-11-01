@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -21,29 +21,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.UnsupportedCoinTypeException;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.dialogs.CreateNewAddressDialog;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.QrUtils;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.FiatType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.families.BitFamily;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.exceptions.UnsupportedCoinTypeException;
+import com.lkrcoin.core.uri.CoinURI;
+import com.lkrcoin.core.util.ExchangeRate;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.dialogs.CreateNewAddressDialog;
+import com.lkrcoin.wallet.ui.widget.AmountEditView;
+import com.lkrcoin.wallet.util.QrUtils;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.UiUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,8 +55,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRate;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.wallet.ExchangeRatesProvider.getRate;
 
 /**
  *
@@ -152,8 +152,8 @@ public class AddressRequestFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
-        // or in com.araguaneybits.wallet.ui.PreviousAddressesActivity
+        // The onCreateOptionsMenu is handled in com.lkrcoin.wallet.ui.AccountFragment
+        // or in com.lkrcoin.wallet.ui.PreviousAddressesActivity
         setHasOptionsMenu(true);
 
         WalletApplication walletApplication = (WalletApplication) getActivity().getApplication();

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.lkrcoin.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -9,21 +9,21 @@ import android.support.v4.app.DialogFragment;
 import android.view.View;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.DialogBuilder;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.ValueType;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.DialogBuilder;
+import com.lkrcoin.wallet.ui.widget.AmountEditView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

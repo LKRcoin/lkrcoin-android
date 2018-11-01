@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 
 import android.content.Context;
@@ -16,14 +16,14 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.HeaderWithFontIcon;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.widget.HeaderWithFontIcon;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 
@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRates;
+import static com.lkrcoin.wallet.ExchangeRatesProvider.getRates;
 
 /**
  * Fragment that restores a wallet

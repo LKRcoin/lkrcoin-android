@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -37,19 +37,19 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.lkrcoin.core.coins.BitcoinMain;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.widget.Amount;
+import com.lkrcoin.wallet.util.WalletUtils;
 
 import org.bitcoinj.core.Coin;
 
@@ -64,7 +64,7 @@ public final class ExchangeRatesFragment extends ListFragment implements OnShare
     private Context context;
     private WalletApplication application;
     private Configuration config;
-    private com.araguaneybits.core.wallet.Wallet wallet;
+    private com.lkrcoin.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 

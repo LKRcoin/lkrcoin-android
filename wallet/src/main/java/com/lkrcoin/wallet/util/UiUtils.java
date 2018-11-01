@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.lkrcoin.wallet.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,18 +17,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.AccountDetailsActivity;
-import com.araguaneybits.wallet.ui.EditAccountFragment;
-import com.araguaneybits.wallet.ui.EditAddressBookEntryFragment;
+import com.lkrcoin.core.uri.CoinURI;
+import com.lkrcoin.core.uri.CoinURIParseException;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.AccountDetailsActivity;
+import com.lkrcoin.wallet.ui.EditAccountFragment;
+import com.lkrcoin.wallet.ui.EditAddressBookEntryFragment;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

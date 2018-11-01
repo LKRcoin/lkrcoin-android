@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -25,12 +25,12 @@ import android.text.style.RelativeSizeSpan;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.util.MonetaryFormat;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.MonetarySpannable;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.ValueType;
+import com.lkrcoin.core.util.MonetaryFormat;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.MonetarySpannable;
 
 import javax.annotation.Nonnull;
 

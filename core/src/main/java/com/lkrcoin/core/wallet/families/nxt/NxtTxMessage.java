@@ -1,10 +1,10 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.coins.nxt.Convert;
+import com.lkrcoin.core.coins.nxt.Transaction;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.wallet.AbstractTransaction;
 
 import javax.annotation.Nullable;
 

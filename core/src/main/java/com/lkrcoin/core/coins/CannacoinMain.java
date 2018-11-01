@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.coins.families.ReddFamily;
+import com.lkrcoin.core.coins.families.ReddFamily;
 
 /**
  * @author FuzzyHobbit

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.adaptors.FeesListAdapter;
-import com.araguaneybits.wallet.ui.dialogs.EditFeeDialog;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.adaptors.FeesListAdapter;
+import com.lkrcoin.wallet.ui.dialogs.EditFeeDialog;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

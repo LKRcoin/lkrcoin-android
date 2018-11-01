@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.coins.families.NuFamily;
+import com.lkrcoin.core.coins.families.NuFamily;
 
 /**
  * @author John L. Jegutanis

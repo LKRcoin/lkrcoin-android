@@ -1,13 +1,13 @@
-package com.araguaneybits.core.coins.nxt;
+package com.lkrcoin.core.coins.nxt;
 
 /**
  * @author John L. Jegutanis
  */
 
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.nxt.Appendix.EncryptedMessage;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyKey;
+import com.lkrcoin.core.coins.NxtMain;
+import com.lkrcoin.core.coins.nxt.Appendix.EncryptedMessage;
+import com.lkrcoin.core.wallet.families.nxt.NxtAddress;
+import com.lkrcoin.core.wallet.families.nxt.NxtFamilyKey;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

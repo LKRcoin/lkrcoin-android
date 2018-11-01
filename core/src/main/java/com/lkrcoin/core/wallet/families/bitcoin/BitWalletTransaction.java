@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.lkrcoin.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.wallet.WalletTransaction;
+import com.lkrcoin.core.wallet.WalletTransaction;
 
 /**
  * @author John L. Jegutanis

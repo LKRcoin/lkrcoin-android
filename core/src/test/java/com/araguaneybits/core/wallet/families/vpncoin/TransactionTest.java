@@ -1,7 +1,7 @@
-package com.araguaneybits.core.wallet.families.vpncoin;
+package com.lkrcoin.core.wallet.families.vpncoin;
 
-import com.araguaneybits.core.coins.VpncoinMain;
-import com.araguaneybits.core.messages.MessageFactory;
+import com.lkrcoin.core.coins.VpncoinMain;
+import com.lkrcoin.core.messages.MessageFactory;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Transaction;

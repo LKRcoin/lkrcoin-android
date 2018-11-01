@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,16 +17,16 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.AddressView;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.util.Fonts;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeHistoryProvider;
+import com.lkrcoin.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.widget.AddressView;
+import com.lkrcoin.wallet.ui.widget.Amount;
+import com.lkrcoin.wallet.util.Fonts;
 
 import org.bitcoinj.core.Coin;
 
@@ -40,7 +40,7 @@ public final class ExchangeHistoryFragment extends ListFragment {
     private Context activity;
     private WalletApplication application;
     private Configuration config;
-    private com.araguaneybits.core.wallet.Wallet wallet;
+    private com.lkrcoin.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 

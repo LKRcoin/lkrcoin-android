@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -31,36 +31,36 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.exceptions.NoSuchPocketException;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.MarketInfoPollTask;
-import com.araguaneybits.wallet.ui.widget.AddressView;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.FiatType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.ValueType;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.exceptions.NoSuchPocketException;
+import com.lkrcoin.core.exchange.shapeshift.ShapeShift;
+import com.lkrcoin.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.messages.TxMessage;
+import com.lkrcoin.core.uri.CoinURI;
+import com.lkrcoin.core.uri.CoinURIParseException;
+import com.lkrcoin.core.util.ExchangeRate;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.tasks.MarketInfoPollTask;
+import com.lkrcoin.wallet.ui.widget.AddressView;
+import com.lkrcoin.wallet.ui.widget.AmountEditView;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.UiUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 import com.google.common.base.Charsets;
 
 import org.acra.ACRA;
@@ -87,11 +87,11 @@ import butterknife.OnClick;
 import static android.view.View.GONE;
 import static android.view.View.OnClickListener;
 import static android.view.View.VISIBLE;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.coins.Value.canCompare;
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRates;
-import static com.araguaneybits.wallet.util.UiUtils.setGone;
-import static com.araguaneybits.wallet.util.UiUtils.setVisible;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.coins.Value.canCompare;
+import static com.lkrcoin.wallet.ExchangeRatesProvider.getRates;
+import static com.lkrcoin.wallet.util.UiUtils.setGone;
+import static com.lkrcoin.wallet.util.UiUtils.setVisible;
 
 /**
  * Fragment that prepares a transaction
@@ -205,7 +205,7 @@ public class SendFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.lkrcoin.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         Bundle args = getArguments();
@@ -1159,7 +1159,7 @@ public class SendFragment extends WalletFragment {
         @Override
         public void onLoadFinished(final Loader<Cursor> loader, final Cursor data) {
             if (data != null && data.getCount() > 0) {
-                HashMap<String, com.araguaneybits.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
+                HashMap<String, com.lkrcoin.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
                 data.moveToFirst();
                 do {
                     ExchangeRatesProvider.ExchangeRate rate = ExchangeRatesProvider.getExchangeRate(data);

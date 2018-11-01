@@ -1,11 +1,11 @@
-package com.araguaneybits.core.coins.families;
+package com.lkrcoin.core.coins.families;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtTxMessage;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.families.nxt.NxtAddress;
+import com.lkrcoin.core.wallet.families.nxt.NxtTxMessage;
 
 import javax.annotation.Nullable;
 

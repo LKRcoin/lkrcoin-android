@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.lkrcoin.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,10 +6,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.DialogBuilder;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

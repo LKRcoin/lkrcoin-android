@@ -1,10 +1,10 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
 
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.util.MonetaryFormat;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.messages.MessageFactory;
+import com.lkrcoin.core.util.MonetaryFormat;
+import com.lkrcoin.core.wallet.AbstractAddress;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Coin;
@@ -140,7 +140,7 @@ abstract public class CoinType extends NetworkParameters implements ValueType, S
 
     /**
      * Returns a 1 coin of this type with the correct amount of units (satoshis)
-     * Use {@link com.araguaneybits.core.coins.CoinType:oneCoin}
+     * Use {@link com.lkrcoin.core.coins.CoinType:oneCoin}
      */
     @Deprecated
     public Coin getOneCoin() {

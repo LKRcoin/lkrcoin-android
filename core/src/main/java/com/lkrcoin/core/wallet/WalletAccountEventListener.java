@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.Value;
+import com.lkrcoin.core.coins.Value;
 
 /**
  * @author John L. Jegutanis

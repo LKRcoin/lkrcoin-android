@@ -1,8 +1,8 @@
-package com.araguaneybits.wallet.util;
+package com.lkrcoin.wallet.util;
 
 import android.content.Context;
 
-import com.araguaneybits.wallet.Constants;
+import com.lkrcoin.wallet.Constants;
 import com.squareup.okhttp.Cache;
 import com.squareup.okhttp.ConnectionSpec;
 import com.squareup.okhttp.OkHttpClient;

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.adaptors;
+package com.lkrcoin.wallet.ui.adaptors;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -9,14 +9,14 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.widget.Amount;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.widget.Amount;
 
 import java.util.ArrayList;
 import java.util.HashMap;

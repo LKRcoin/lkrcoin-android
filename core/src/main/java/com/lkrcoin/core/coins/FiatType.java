@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins;
+package com.lkrcoin.core.coins;
 
-import com.araguaneybits.core.util.Currencies;
-import com.araguaneybits.core.util.MonetaryFormat;
+import com.lkrcoin.core.util.Currencies;
+import com.lkrcoin.core.util.MonetaryFormat;
 
 import org.bitcoinj.core.Coin;
 

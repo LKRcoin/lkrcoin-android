@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
+import com.lkrcoin.core.coins.CoinType;
 
 import java.io.Serializable;
 

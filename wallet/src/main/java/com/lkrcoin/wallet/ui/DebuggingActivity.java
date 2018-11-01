@@ -1,9 +1,9 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.araguaneybits.wallet.R;
+import com.lkrcoin.wallet.R;
 
 /**
  * @author John L. Jegutanis

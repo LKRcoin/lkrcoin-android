@@ -1,15 +1,15 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
 
 import org.bitcoinj.crypto.KeyCrypterException;
 

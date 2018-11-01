@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.messages.TxMessage;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.messages.TxMessage;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.TransactionConfidence.ConfidenceType;

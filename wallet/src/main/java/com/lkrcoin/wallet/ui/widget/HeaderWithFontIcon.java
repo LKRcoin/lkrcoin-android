@@ -1,12 +1,12 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.lkrcoin.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.util.Fonts;
 
 /**
  * @author John L. Jegutanis

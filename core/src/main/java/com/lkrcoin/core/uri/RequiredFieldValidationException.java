@@ -1,4 +1,4 @@
-package com.araguaneybits.core.uri;
+package com.lkrcoin.core.uri;
 
 /**
  * <p>This exception occurs when a required field is detected (under the BIP21 rules) and fails

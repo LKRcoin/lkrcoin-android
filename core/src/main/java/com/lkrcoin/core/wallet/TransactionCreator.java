@@ -1,12 +1,12 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FeePolicy;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.wallet.families.bitcoin.BitSendRequest;
-import com.araguaneybits.core.wallet.families.bitcoin.CoinSelection;
-import com.araguaneybits.core.wallet.families.bitcoin.CoinSelector;
-import com.araguaneybits.core.wallet.families.bitcoin.OutPointOutput;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.FeePolicy;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.wallet.families.bitcoin.BitSendRequest;
+import com.lkrcoin.core.wallet.families.bitcoin.CoinSelection;
+import com.lkrcoin.core.wallet.families.bitcoin.CoinSelector;
+import com.lkrcoin.core.wallet.families.bitcoin.OutPointOutput;
 import com.google.common.collect.Lists;
 
 import org.bitcoinj.core.Address;
@@ -35,9 +35,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.lkrcoin.core.Preconditions.checkArgument;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

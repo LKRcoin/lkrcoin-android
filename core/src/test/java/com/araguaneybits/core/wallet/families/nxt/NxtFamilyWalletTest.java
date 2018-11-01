@@ -1,18 +1,18 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.coins.nxt.Account;
-import com.araguaneybits.core.coins.nxt.Attachment;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.NxtMain;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.coins.nxt.Account;
+import com.lkrcoin.core.coins.nxt.Attachment;
+import com.lkrcoin.core.coins.nxt.Convert;
+import com.lkrcoin.core.coins.nxt.NxtException;
+import com.lkrcoin.core.coins.nxt.Transaction;
+import com.lkrcoin.core.coins.nxt.TransactionImpl;
+import com.lkrcoin.core.protos.Protos;
+import com.lkrcoin.core.wallet.Wallet;
+import com.lkrcoin.core.wallet.WalletAccount;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

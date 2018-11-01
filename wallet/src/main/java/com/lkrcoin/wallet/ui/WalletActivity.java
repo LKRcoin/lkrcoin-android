@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -19,22 +19,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.SerializedKey;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.service.CoinService;
-import com.araguaneybits.wallet.service.CoinServiceImpl;
-import com.araguaneybits.wallet.tasks.CheckUpdateTask;
-import com.araguaneybits.wallet.ui.dialogs.TermsOfUseDialog;
-import com.araguaneybits.wallet.util.SystemUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.uri.CoinURI;
+import com.lkrcoin.core.uri.CoinURIParseException;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractAddress;
+import com.lkrcoin.core.wallet.SerializedKey;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.service.CoinService;
+import com.lkrcoin.wallet.service.CoinServiceImpl;
+import com.lkrcoin.wallet.tasks.CheckUpdateTask;
+import com.lkrcoin.wallet.ui.dialogs.TermsOfUseDialog;
+import com.lkrcoin.wallet.util.SystemUtils;
+import com.lkrcoin.wallet.util.WeakHandler;
 
 import org.bitcoinj.core.Transaction;
 import org.slf4j.Logger;
@@ -45,10 +45,10 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_COIN;
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_OVERVIEW;
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_TRADE;
+import static com.lkrcoin.wallet.ui.NavDrawerItemType.ITEM_COIN;
+import static com.lkrcoin.wallet.ui.NavDrawerItemType.ITEM_OVERVIEW;
+import static com.lkrcoin.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
+import static com.lkrcoin.wallet.ui.NavDrawerItemType.ITEM_TRADE;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,15 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.CoinListItem;
-import com.araguaneybits.wallet.util.UiUtils;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.uri.CoinURI;
+import com.lkrcoin.core.uri.CoinURIParseException;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.widget.CoinListItem;
+import com.lkrcoin.wallet.util.UiUtils;
 
 /**
  * @author John L. Jegutanis

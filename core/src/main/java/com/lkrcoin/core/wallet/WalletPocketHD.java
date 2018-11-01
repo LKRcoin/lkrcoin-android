@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.lkrcoin.core.protos.Protos;
+import com.lkrcoin.core.util.KeyUtils;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 
@@ -46,10 +46,10 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
-import static com.araguaneybits.core.util.BitAddressUtils.getHash160;
+import static com.lkrcoin.core.Preconditions.checkArgument;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
+import static com.lkrcoin.core.util.BitAddressUtils.getHash160;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.CHANGE;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.RECEIVE_FUNDS;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.REFUND;

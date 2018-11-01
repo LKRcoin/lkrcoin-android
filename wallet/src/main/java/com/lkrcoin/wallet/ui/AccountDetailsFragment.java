@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,14 +10,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.QrUtils;
-import com.araguaneybits.wallet.util.UiUtils;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.util.QrUtils;
+import com.lkrcoin.wallet.util.UiUtils;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

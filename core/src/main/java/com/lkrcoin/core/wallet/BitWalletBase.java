@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitSendRequest;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.exceptions.AddressMalformedException;
+import com.lkrcoin.core.wallet.families.bitcoin.BitAddress;
+import com.lkrcoin.core.wallet.families.bitcoin.BitSendRequest;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.InsufficientMoneyException;
@@ -36,10 +36,10 @@ import java.util.Arrays;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
-import static com.araguaneybits.core.util.BitAddressUtils.getHash160;
-import static com.araguaneybits.core.util.BitAddressUtils.isP2SHAddress;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkState;
+import static com.lkrcoin.core.util.BitAddressUtils.getHash160;
+import static com.lkrcoin.core.util.BitAddressUtils.isP2SHAddress;
 
 /**
  * @author John L. Jegutanis

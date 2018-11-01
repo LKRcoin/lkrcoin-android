@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.lkrcoin.wallet.ui;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,24 +18,24 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.ui.widget.SwipeRefreshLayout;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.Value;
+import com.lkrcoin.core.util.GenericUtils;
+import com.lkrcoin.core.wallet.AbstractTransaction;
+import com.lkrcoin.core.wallet.AbstractWallet;
+import com.lkrcoin.core.wallet.WalletAccount;
+import com.lkrcoin.core.wallet.WalletConnectivityStatus;
+import com.lkrcoin.wallet.AddressBookProvider;
+import com.lkrcoin.wallet.Configuration;
+import com.lkrcoin.wallet.Constants;
+import com.lkrcoin.wallet.ExchangeRatesProvider;
+import com.lkrcoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.lkrcoin.wallet.R;
+import com.lkrcoin.wallet.WalletApplication;
+import com.lkrcoin.wallet.ui.widget.Amount;
+import com.lkrcoin.wallet.ui.widget.SwipeRefreshLayout;
+import com.lkrcoin.wallet.util.ThrottlingWalletChangeListener;
+import com.lkrcoin.wallet.util.WeakHandler;
 import com.google.common.collect.Lists;
 
 import org.bitcoinj.core.Coin;
@@ -121,7 +121,7 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.lkrcoin.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         if (getArguments() != null) {

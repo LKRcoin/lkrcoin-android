@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.lkrcoin.core.wallet;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.lkrcoin.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

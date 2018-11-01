@@ -15,11 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.araguaneybits.core.wallet.families.nxt;
+package com.lkrcoin.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.protos.Protos;
+import com.lkrcoin.core.coins.CoinID;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.protos.Protos;
 import com.google.protobuf.ByteString;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -243,7 +243,7 @@ final public class NxtFamilyWalletProtobufSerializer {
             pocket.setDescription(walletProto.getDescription());
         }
 
-        // TODO ready transactions? Check com.araguaneybits.core.wallet WalletPocketProtobufSerializer
+        // TODO ready transactions? Check com.lkrcoin.core.wallet WalletPocketProtobufSerializer
 
         return pocket;
     }

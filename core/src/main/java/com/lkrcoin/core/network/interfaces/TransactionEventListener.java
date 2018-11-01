@@ -1,8 +1,8 @@
-package com.araguaneybits.core.network.interfaces;
+package com.lkrcoin.core.network.interfaces;
 
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.BlockHeader;
-import com.araguaneybits.core.network.ServerClient.HistoryTx;
+import com.lkrcoin.core.network.AddressStatus;
+import com.lkrcoin.core.network.BlockHeader;
+import com.lkrcoin.core.network.ServerClient.HistoryTx;
 
 import java.util.List;
 

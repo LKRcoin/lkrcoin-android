@@ -1,11 +1,11 @@
-package com.araguaneybits.core.network;
+package com.lkrcoin.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.UnsupportedCoinTypeException;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.lkrcoin.core.coins.CoinType;
+import com.lkrcoin.core.coins.families.BitFamily;
+import com.lkrcoin.core.coins.families.NxtFamily;
+import com.lkrcoin.core.exceptions.UnsupportedCoinTypeException;
+import com.lkrcoin.core.network.interfaces.BlockchainConnection;
+import com.lkrcoin.core.wallet.WalletAccount;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
