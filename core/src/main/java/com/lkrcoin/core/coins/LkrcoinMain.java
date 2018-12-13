@@ -13,6 +13,7 @@ public class LkrcoinMain extends PeerFamily {
         p2shHeader = 85;
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         spendableCoinbaseDepth = 500;
+        dumpedPrivateKeyHeader = 128 + addressHeader;
 
         name = "Lkrcoin";
         symbol = "LKR";

@@ -13,6 +13,8 @@ import android.os.StrictMode;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
+import android.support.multidex.MultiDexApplication;
+
 
 import com.lkrcoin.core.coins.CoinType;
 import com.lkrcoin.core.coins.Value;
@@ -55,7 +57,7 @@ import javax.annotation.Nullable;
         httpMethod = HttpSender.Method.PUT,
         reportType = HttpSender.Type.JSON
 )
-public class WalletApplication extends Application {
+public class WalletApplication extends MultiDexApplication {
     private static final Logger log = LoggerFactory.getLogger(WalletApplication.class);
 
     private static HashMap<String, Typeface> typefaces;
