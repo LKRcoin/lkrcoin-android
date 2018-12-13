@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- http://www.google.com/design/spec/style/color.html#color-ui-color-application -->
-    <color name="primary_100">#BB86FC</color>
-    <color name="primary_500" >#6200EE</color>
-    <color name="primary_600">#3700B3</color>
+    <color name="primary_100">#949494</color>
+    <color name="primary_500" >#696969</color>
+    <color name="primary_600">#000000</color>
     <color name="primary_700">#0288D1</color>
     <color name="primary_800">#0277BD</color>
     <color name="primary_900">#01579B</color>

@@ -25,10 +25,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/coinomi_logo_gradient"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/newcoin" />
 
             <TextView
                 style="@style/AppNameLong"
@@ -42,13 +43,13 @@
 
             <TextView
                 android:id="@+id/about_version"
+                style="@style/NormalText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/NormalText"
-                tools:text="X.Y.Z"
                 android:layout_below="@+id/textView"
+                android:layout_alignStart="@+id/textView"
                 android:layout_alignLeft="@+id/textView"
-                android:layout_alignStart="@+id/textView" />
+                tools:text="X.Y.Z" />
         </RelativeLayout>
 
         <Button
@@ -56,8 +57,8 @@
             style="@style/BorderlessButtonLink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/terms_of_service_title" />
 
         <!--<TextView-->
@@ -162,7 +163,7 @@
             android:autoLink="web"
             android:paddingTop="16dp"
             android:text="@string/about_credits_exchange_rates" />
-
+<!--
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -170,7 +171,7 @@
             android:layout_marginBottom="16dp"
             android:src="@drawable/coins_network"
             android:layout_gravity="center_horizontal" />
-
+-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
