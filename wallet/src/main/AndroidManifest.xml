@@ -238,15 +238,15 @@
 
         <provider
             android:name="com.lkrcoin.wallet.ExchangeRatesProvider"
-            android:authorities="com.lkrcoin.wallet.dev.exchange_rates"
+            android:authorities="com.lkrcoin.wallet.exchange_rates"
             android:exported="false" />
         <provider
             android:name="com.lkrcoin.wallet.AddressBookProvider"
-            android:authorities="com.lkrcoin.wallet.dev.address_book"
+            android:authorities="com.lkrcoin.wallet.address_book"
             android:exported="false" />
         <provider
             android:name="com.lkrcoin.wallet.ExchangeHistoryProvider"
-            android:authorities="com.lkrcoin.wallet.dev.exchange_history"
+            android:authorities="com.lkrcoin.wallet.exchange_history"
             android:exported="false" />
 
         <service
