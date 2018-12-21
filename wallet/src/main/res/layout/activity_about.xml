@@ -23,12 +23,12 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="193dp"
+                android:layout_height="149dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="70dp"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="13dp"
                 android:src="@drawable/newcoin" />
 
             <TextView
@@ -181,9 +181,9 @@
             android:text="@string/about_coinomi_copyright" />
 
         <TextView
+            style="@style/NormalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/NormalText"
             android:layout_gravity="center_horizontal"
             android:paddingTop="16dp"
             android:text="@string/about_araguaney_copyright" />

@@ -8,6 +8,7 @@
     <color name="primary_800">#0277BD</color>
     <color name="primary_900">#01579B</color>
     <color name="accent">#0091EA</color>
+    <color name="primary_501">#efbb00</color>
 
     <color name="send_light">#FFECB3</color>
     <color name="send_normal">#FF6F00</color>
