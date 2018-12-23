@@ -94,8 +94,8 @@ public class Constants {
                     new ServerAddress("ltc-cce-2.coinomi.net", 5002)),
 
             new CoinAddress(LkrcoinMain.get(),
-                    new ServerAddress("190.202.15.196", 23000), // TODO Cambiar por el oficial de LKR
-                    new ServerAddress("190.202.15.196", 23001), // TODO Cambiar por el oficial de LKR
+                    new ServerAddress("94.156.35.152", 30001),
+                    new ServerAddress("94.156.35.152", 30002),
                     new ServerAddress("lkr.araguaneybits.com", 30001),
                     new ServerAddress("lkr.araguaneybits.com", 30002)
             )
