@@ -204,6 +204,7 @@
     <string name="title_activity_about">About LKRcoin</string>
     <string name="app_name_long">LKRcoin for Android</string>
     <string name="about_licence">Based on Coinomi, an open source project\nhttps://github.com/coinomi/coinomi-android\nSource code licensed under GNU General Public License 3</string>
+    <string name="about_lkrcoin">Created in 2018 in the community LKR Team, formed mainly by members with technological knowledge and skills, taking as a focus the interest of professional potentialists that encourage the development of economic movements, indispensable for the Personal and professional training of each individual, through the use of digital assets applying cryptographic obtaining mechanisms promoting independent income to members of our community. Editar</string>
     <string name="about_credits_nubits">Server infrastructure donated by NuBits - The World\'s First Stable Digital Currency\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Translations provided by:</string>
     <string name="about_credits_translations_credits" translatable="false">Tamara Castellano (Italian)\nJorge Nicolas Karmis (Spanish)\nGeorge Kimionis (Greek)\n@visvirial (Japanese)\nДенис Рейн (Russian, Ukrainian)</string>
