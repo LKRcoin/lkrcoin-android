@@ -81,18 +81,15 @@ public class Constants {
     public static final char CURRENCY_MINUS_SIGN = '-';
 
     public static final String MARKET_APP_URL = "market://details?id=%s";
-    public static final String BINARY_URL = "https://github.com/AraguaneyBits/AraguaneyBits-MultiWallet/releases";
+    public static final String BINARY_URL = "https://github.com/LKRcoin/lkrcoin-android/releases";
 
-    public static final String VERSION_URL = "https://joseluisestevez.com/version-multiwallet";
-    public static final String SUPPORT_EMAIL = "support@joseluisestevez.com";
+    public static final String VERSION_URL = "https://raw.githubusercontent.com/LKRcoin/lkrcoin-android/master/last-version";
+    public static final String SUPPORT_EMAIL = "support@lkrcoin.io";
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
             new CoinAddress(BitcoinMain.get(),      new ServerAddress("btc-cce-1.coinomi.net", 5001),
                     new ServerAddress("btc-cce-2.coinomi.net", 5001)),
-            new CoinAddress(LitecoinMain.get(),     new ServerAddress("ltc-cce-1.coinomi.net", 5002),
-                    new ServerAddress("ltc-cce-2.coinomi.net", 5002)),
-
             new CoinAddress(LkrcoinMain.get(),
                     new ServerAddress("94.156.35.152", 30001),
                     new ServerAddress("94.156.35.152", 30002),
@@ -106,12 +103,10 @@ public class Constants {
     static {
         COINS_ICONS = new HashMap<>();
         COINS_ICONS.put(CoinID.BITCOIN_MAIN.getCoinType(), R.drawable.bitcoin);
-        COINS_ICONS.put(CoinID.LITECOIN_MAIN.getCoinType(), R.drawable.litecoin);
         COINS_ICONS.put(CoinID.LKRCOIN_MAIN.getCoinType(), R.drawable.lkrcoin);
 
         COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_MAIN.getCoinType(), "http://ltc.blockr.io/tx/info/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LKRCOIN_MAIN.getCoinType(), "http://explorer.lkrcoin.io/tx/%s");
     }
 
@@ -123,7 +118,6 @@ public class Constants {
 
     public static final List<CoinType> SUPPORTED_COINS = ImmutableList.of(
             BitcoinMain.get(),
-            LitecoinMain.get(),
             LkrcoinMain.get()
     );
 }
