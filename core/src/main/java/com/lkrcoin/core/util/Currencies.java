@@ -158,7 +158,7 @@ public class Currencies {
         builder.put("USD", "US Dollar");
         builder.put("UYU", "Uruguayan Peso");
         builder.put("UZS", "Uzbekistan Som");
-        builder.put("VEF", "Venezuelan Bolívar");
+        builder.put("VES", "Venezuelan Bolívar");
         builder.put("VND", "Vietnamese Dong");
         builder.put("VUV", "Vanuatu Vatu");
         builder.put("WST", "Samoan Tala");
