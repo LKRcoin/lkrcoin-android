@@ -52,6 +52,33 @@
                 tools:text="X.Y.Z" />
         </RelativeLayout>
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NormalText"
+            android:autoLink="web"
+            android:paddingTop="14dp"
+            android:text="@string/about_lkrcoin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NormalText"
+            android:autoLink="web"
+            android:paddingTop="14dp"
+            android:text="Web site\nhttp://lkrcoin.io/" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NormalText"
+            android:autoLink="web"
+            android:paddingTop="14dp"
+            android:text="Official LKRcoin fork repository\nhttps://github.com/LKRcoin/lkrcoin-android" />
+
+
+
         <Button
             android:id="@+id/terms_of_service_button"
             style="@style/BorderlessButtonLink"
@@ -94,9 +121,9 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             style="@style/NormalText"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
             android:autoLink="web"
             android:text="@string/about_credits_translations_credits" />
 
